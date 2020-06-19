@@ -14,7 +14,8 @@ class SimpleStart extends React.Component{
         const requestOptions = {
             method: 'POST',
         };
-        fetch('http://localhost:5000/api/start', requestOptions);
+
+        fetch('http://seidlserver.ddns.net:5000/api/start', requestOptions);
     }
 }
 
